@@ -1,0 +1,31 @@
+# CMake build directory (编译产物，不提交)
+build/
+
+# CMake 中间文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 编译生成的目标文件和二进制
+*.o
+*.a
+*.so
+*.so.*
+*.exe
+*.out
+chat_server
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+
+# 本地配置文件（放数据库密码等敏感信息，不要提交）
+.env
+*.local
